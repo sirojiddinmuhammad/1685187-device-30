@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Sirojiddin Muhammad](https://up.htmlacademy.ru/htmlcss/30/user/1685187).
-* Наставник: `Неизвестно`.
+- Студент: [Sirojiddin Muhammad](https://up.htmlacademy.ru/htmlcss/30/user/1685187).
+- Наставник: [Владислав Ермолаев](https://htmlacademy.ru/profile/id128353)..
 
 ---
 
