@@ -1,0 +1,178 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Gilroy Light"),
+    url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-style: normal;
+  src: local("Gilroy ExtraBold"),
+    url("../fonts/gilroyextrabold.woff2") format("woff2"),
+    url("../fonts/gilroyextrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Open Sans"), url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Open Sans Light"),
+    url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
+}
+
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-dark: #363636;
+  --basic-grey: #464646;
+  --basic-half-grey: #7e7e7e;
+  --basic-grey-light: #e5e5e5;
+  --basic-white: #ffffff;
+
+  --special-yellow: #f7e296;
+  --special-yellow-dark: #f0c52e;
+  --special-green: #91c92f;
+  --special-pink: #f6dada;
+}
+
+/* BODY */
+
+.page-body {
+  font-family: "Gilroy", "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+
+.main-navigation-wrapper {
+  background-color: var(--special-yellow);
+}
+
+.user-navigation {
+  font-family: "Open Sans" Arial, sans-serif;
+}
+
+.site-navigation {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Slider */
+
+.slider-product-text {
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+}
+
+.slider-product-desc {
+  font-family: "Open Sans" Arial, sans-serif;
+  font-weight: 300;
+}
+
+.slider-product-feature td {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+}
+
+.slider-product-feature th {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.button {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: var(--special-yellow-dark);
+  border: 0;
+}
+
+/* Popular Category */
+
+.popular-category-image {
+  background-color: var(--special-yellow);
+}
+
+.popular-category-image:hover {
+  background-color: var(--special-yellow-dark);
+}
+
+.popular-category-item h3 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+
+/* SERVICE */
+
+.services {
+  background-color: var(--basic-grey-light);
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 58px;
+  letter-spacing: 0.2em;
+}
+
+.description {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.company-list {
+  list-style: circle;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* FOOTER */
+
+.main-footer {
+  background-color: var(--basic-dark);
+  color: var(--basic-white);
+}
