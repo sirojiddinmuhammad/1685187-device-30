@@ -53,31 +53,60 @@
 
 /* BODY */
 
-.page-body {
+body {
   font-family: "Gilroy", "Open Sans", Arial, sans-serif;
   font-size: 15px;
-  font-weight: 300px;
+  font-weight: 300;
   line-height: 30px;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
+/* ul {
   list-style: none;
+} */
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* HEADER */
+
+.main-header {
+  padding: 40px 0 0;
+}
+
+.main-header .container {
+  position: relative;
+  background-color: var(--special-yellow);
+  padding: 20px 40px 100px;
+}
+
+.main-header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation-logo {
+  position: absolute;
+  top: -20px;
+}
 
 .main-navigation-wrapper {
   background-color: var(--special-yellow);
 }
 
 .user-navigation {
-  font-family: "Open Sans" Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .site-navigation {
