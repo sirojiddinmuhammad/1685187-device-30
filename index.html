@@ -6,38 +6,67 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icons/icon_device.svg" type="image/svg+×ml">
     <link rel="apple-touch-icon" href="img/icons/icon_device.svg">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-body">
   <header class="main-header">
-    <nav class="main-navigation">
-      <a class="main-navigation-logo">
-        <img src="img/logo-device.png" width="163" height="35" alt="Интернет магазина «Девайс»">
-      </a>
-      <div class="main-navigation-wrapper">
-        <div class="container">
-          <div class="navigation-one">
-            <form class="site-search" action="#" method="post">
-              <input type="search" name="search" id="search" placeholder="Поиск по сайту">
-            </form>
-            <ul class="user-navigation">
-              <li><a href="#">Войти</a></li>
-              <li><a href="#">Сравнить</a></li>
-              <li><a href="#">Корзина</a></li>
-            </ul>
-          </div>
+    <div class="container">
+      <div class="main-header__top">
+        <div class="main-header__top-left">
+          <a class="main-navigation-logo">
+            <img src="img/logo-device.png" width="163" height="35" alt="Интернет магазина «Девайс»">
+          </a>
+          <form class="site-search" action="#" method="post">
+            <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+          </form>
+        </div>
+        <div class="main-header__top-right">
+          <ul class="user-navigation">
+            <li><a href="#">Войти</a></li>
+            <li><a href="#">Сравнить</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-header__bottom">
+        <nav class="main-navigation">
           <ul class="site-navigation">
             <li><a href="#">Каталог товаров</a></li>
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Гарантия</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </nav>
+      <nav class="main-navigation">
+        <a class="main-navigation-logo">
+          <img src="img/logo-device.png" width="163" height="35" alt="Интернет магазина «Девайс»">
+        </a>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <div class="navigation-one">
+              <form class="site-search" action="#" method="post">
+                <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+              </form>
+              <ul class="user-navigation">
+                <li><a href="#">Войти</a></li>
+                <li><a href="#">Сравнить</a></li>
+                <li><a href="#">Корзина</a></li>
+              </ul>
+            </div>
+            <ul class="site-navigation">
+              <li><a href="#">Каталог товаров</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Гарантия</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
-  <main class="container">
+  <main>
     <section class="slider">
         <article class="slider-product">
           <div class="slider-product-image">
