@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-body">
+
   <header class="main-header">
     <div class="container">
       <div class="main-header__top">
         <div class="main-header__top-left">
-          <a class="main-navigation-logo">
+          <a class="main-navigation-logo" href="index.html">
             <img src="img/logo-device.png" width="163" height="35" alt="Интернет магазина «Девайс»">
           </a>
           <form class="site-search" action="#" method="post">
@@ -39,108 +40,99 @@
           </ul>
         </nav>
       </div>
-      <nav class="main-navigation">
-        <a class="main-navigation-logo">
-          <img src="img/logo-device.png" width="163" height="35" alt="Интернет магазина «Девайс»">
-        </a>
-        <div class="main-navigation-wrapper">
-          <div class="container">
-            <div class="navigation-one">
-              <form class="site-search" action="#" method="post">
-                <input type="search" name="search" id="search" placeholder="Поиск по сайту">
-              </form>
-              <ul class="user-navigation">
-                <li><a href="#">Войти</a></li>
-                <li><a href="#">Сравнить</a></li>
-                <li><a href="#">Корзина</a></li>
-              </ul>
-            </div>
-            <ul class="site-navigation">
-              <li><a href="#">Каталог товаров</a></li>
-              <li><a href="#">Доставка</a></li>
-              <li><a href="#">Гарантия</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     </div>
   </header>
+
   <main>
-    <section class="slider">
-        <article class="slider-product">
-          <div class="slider-product-image">
-            <img src="img/slider-1.png" width="384" height="486" alt="">
-          </div>
-          <div class="slider-product-info">
-            <span>01</span>
-            <h2 class="slider-product-text">Делай селфи, как Бен Стиллер!</h2>
-            <p class="slider-product-desc">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-            <button class="button" type="button">Подробнее</button>
-            <ul class="slider-pagination">
-              <li><input type="radio" name="slider-bottom" id="slider-one" checked></li>
-              <li><input type="radio" name="slider-bottom" id="slider-two"></li>
-              <li><input type="radio" name="slider-bottom" id="slider-three"></li>
-            </ul>
-            <table class="slider-product-feature">
-              <tr>
-               <td>8,5 м</td>
-               <td>5 кг</td>
-               <td>Карбон</td>
-             </tr>
-              <tr>
-                <th>Длина палки</th>
-                <th>Вес палки</th>
-                <th>Материал</th>
+
+    <div class="container">
+
+      <section class="slider">
+          <article class="slider-box">
+            <div class="slider-column__left">
+              <img class="slider-image" src="img/slider-1.png" width="384" height="486" alt="">
+            </div>
+            <div class="slider-column__right">
+              <p>
+                <svg width="100" height="7" viewBox="0 0 100 7">
+                  <rect width="100" height="7" fill="white"/>
+                </svg>
+                <span>01</span>
+              </p>
+              <h2 class="slider-text">Делай селфи, как Бен Стиллер!</h2>
+              <p class="slider-desc">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+              <p>
+                <button class="button" type="button">Подробнее</button>
+                <ul class="slider-pagination">
+                  <li><input type="radio" name="slider-bottom" id="slider-one" checked></li>
+                  <li><input type="radio" name="slider-bottom" id="slider-two"></li>
+                  <li><input type="radio" name="slider-bottom" id="slider-three"></li>
+                </ul>
+              </p>
+              <table class="slider-feature">
+                <tr>
+                <td>8,5 м</td>
+                <td>5 кг</td>
+                <td>Карбон</td>
               </tr>
-            </table>
-          </div>
-        </article>
-        <!-- Я временно убрал другие слайды -->
-        <article class="slider-product"></article>
-        <article class="slider-product"></article>
-    </section>
-    <section class="popular-category">
-        <ul class="popular-category-list">
-          <li class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category1.svg" width="160" height="160" alt="Виртуальная реальность">
-              <h3>Виртуальная реальность</h3>
-            </a>
-          </li>
-          <li class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category2.svg" width="160" height="160" alt="Моноподы для селфи">
-              <h3>Моноподы для селфи</h3>
-            </a>
-          </li>
-          <li class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category3.svg" width="160" height="160" alt="Экшн-камеры">
-              <h3>Экшн-камеры</h3>
-            </a>
-          </li>
-          <li class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category4.svg" width="160" height="160" alt="Фитнес-браслеты">
-              <h3>Фитнес-браслеты</h3>
-            </a>
-          </li>
-          <li  class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category5.svg" width="160" height="160" alt="Умные часы">
-              <h3>Умные часы</h3>
-            </a>
-          </li>
-          <li class="popular-category-item">
-            <a href="#">
-              <img class="popular-category-image" src="img/popular_category6.svg" width="160" height="160" alt="Квадрокоптеры">
-              <h3>Квадрокоптеры</h3>
-            </a>
-          </li>
-        </ul>
-    </section>
+                <tr>
+                  <th>Длина палки</th>
+                  <th>Вес палки</th>
+                  <th>Материал</th>
+                </tr>
+              </table>
+            </div>
+          </article>
+          <!-- Я временно убрал другие слайды -->
+          <article class="slider-box"></article>
+          <article class="slider-box"></article>
+      </section>
+
+      <section class="popular-category">
+          <ul class="popular-category-list">
+            <li class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category1.svg" width="160" height="160" alt="Виртуальная реальность">
+              </a>
+              <h3><a href="#">Виртуальная реальность</a></h3>
+            </li>
+            <li class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category2.svg" width="160" height="160" alt="Моноподы для селфи">
+              </a>
+              <h3><a href="#">Моноподы для селфи</a></h3>
+            </li>
+            <li class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category3.svg" width="160" height="160" alt="Экшн-камеры">
+              </a>
+              <h3><a href="#">Экшн-камеры</a></h3>
+            </li>
+            <li class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category4.svg" width="160" height="160" alt="Фитнес-браслеты">
+              </a>
+              <h3><a href="">Фитнес-браслеты</a></h3>
+            </li>
+            <li  class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category5.svg" width="160" height="160" alt="Умные часы">
+              </a>
+              <h3><a href="">Умные часы</a></h3>
+            </li>
+            <li class="popular-category-item">
+              <a href="#">
+                <img class="popular-category-image" src="img/popular_category6.svg" width="160" height="160" alt="Квадрокоптеры">
+              </a>
+              <h3><a href="#">Квадрокоптеры</a></h3>
+            </li>
+          </ul>
+      </section>
+
+    </div>
+
     <section class="services">
+      <div class="container">
         <ul class="services-button">
          <li><button class="button" type="button">Доставка</button></li>
          <li><button class="button" type="button">Гарантия</button></li>
@@ -148,8 +140,8 @@
         </ul>
         <div class="services-list">
           <div class="services-item">
-            <h2 class="heading">Доставка</h2>
-            <p class="description">Мы с удовольствием доставим ваш товар прямо к вашему
+            <h2>Доставка</h2>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему
               подъезду совершенно бесплатно! Ведь мы неплохо
               заработаем, поднимая его на ваш этаж.</p>
             <img class="services-image" src="img/delivery2.svg" width="136" height="164" alt="">
@@ -157,68 +149,103 @@
            <!-- Я временно убрал другие сервисы -->
           <div class="services-item"></div>
           <div class="services-item"></div>
+        </div>
       </div>
     </section>
-    <aside class="brand-names">
-      <ul class="brand-name-list">
-        <li class="brand-name-item"><a href="#"><img src="img/logo-dji.png" width="260" height="100" alt="Dji"></a></li>
-        <li class="brand-name-item"><a href="#"><img src="img/logo-spgadgets.png" width="260" height="100" alt="SP Gadgets"></a></li>
-        <li class="brand-name-item"><a href="#"><img src="img/logo-gopro.png" width="260" height="100" alt="GoPro"></a></li>
-        <li class="brand-name-item"><a href="#"><img src="img/logo-vive.png" width="260" height="100" alt="Logo Vive"></a></li>
-      </ul>
-    </aside>
-    <section class="info-columns">
-      <div class="about">
-        <h2 class="heading">О нас</h2>
-        <p class="description">Огромный выбор гаджетов не оставит равнодушным гика,
-            который есть в каждом из нас.</p>
-        <p class="description"></p>Мы можем доставить ваш товар в самые отдаленные точки
-            России! DEVICE работает со многими транспортными компаниями:</p>
-          <ul class="company-list">
-            <li class="company-item"><a href="#">Деловые линии</a></li>
-            <li class="company-item"><a href="#">Автотрейдинг</a></li>
-            <li class="company-item"><a href="#">ЖелДорЭкспедиция</a></li>
-          </ul>
-          <button class="button" type="button">Подробнее о нас</button>
+
+    <div class="container">
+
+      <aside class="brand-names">
+        <ul class="brand-name-list">
+          <li class="brand-name-item"><a href="#"><img src="img/logo-dji.png" width="260" height="100" alt="Dji"></a></li>
+          <li class="brand-name-item"><a href="#"><img src="img/logo-spgadgets.png" width="260" height="100" alt="SP Gadgets"></a></li>
+          <li class="brand-name-item"><a href="#"><img src="img/logo-gopro.png" width="260" height="100" alt="GoPro"></a></li>
+          <li class="brand-name-item"><a href="#"><img src="img/logo-vive.png" width="260" height="100" alt="Logo Vive"></a></li>
+        </ul>
+      </aside>
+
+      <div class="info-columns">
+
+        <section class="about">
+          <h2>О нас</h2>
+          <p>Огромный выбор гаджетов не оставит равнодушным гика,
+              который есть в каждом из нас.</p>
+          <p>Мы можем доставить ваш товар в самые отдаленные точки
+              России! DEVICE работает со многими транспортными компаниями:</p>
+            <ul class="company-list">
+              <li class="company-item"><a href="#">Деловые линии</a></li>
+              <li class="company-item"><a href="#">Автотрейдинг</a></li>
+              <li class="company-item"><a href="#">ЖелДорЭкспедиция</a></li>
+            </ul>
+            <button class="button" type="button">Подробнее о нас</button>
+        </section>
+
+        <section class="contact">
+            <h2>Контакты</h2>
+            <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+            <p class="contact-map">
+              <a href="#">
+                <img class="contact-map" src="img/map.jpg" width="560" height="222" alt="Карта">
+              </a>
+            </p>
+              <button class="button" type="button">Напишите нам</button>
+        </section>
+
       </div>
-      <div class="contact">
-          <h2 class="heading">Контакты</h2>
-          <p class="description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <p><img class="contact-map" src="img/map.jpg" width="560" height="222" alt="Карта"></p>
-          <button class="button" type="button">Напишите нам</button>
-      </div>
-    </section>
+
+    </div>
+
   </main>
+
   <footer class="main-footer">
-    <section class="footer-columns">
-      <a class="footer-logo">
-        <img src="img/logo-device2.png" width="163" height="35" alt="Интернет магазина «Девайс»">
-      </a>
-      <p>г. Москва, ул. Строителей, 15</p>
-    </section>
-    <section class="footer-columns">
-      <ul class="site-navigation footer-service-menu">
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <ul class="footer-social">
-            <li><a class="social-button" href="#"><img src="img/icons/icon-facebook.svg" width="32" height="32" alt="Facebook"></a></li>
-            <li><a class="social-button" href="#"><img src="img/icons/icon-instagram.svg" width="32" height="32" alt="Instagram"></a></li>
-            <li><a class="social-button" href="#"><img src="img/icons/icon-twitter.svg"  width="32" height="32" alt="Twitter"></a></li>
-      </ul>
-    </section>
-    <section class="footer-columns">
-      <ul class="user-navigation footer-user-menu">
-        <li><a href="#">Войти</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-      <p> Тел:<a class="footer-phone" href="tel:+74954959595">+7 (495) 495-95-95</a></p>
-      <p class="footer-copyright">
-        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="27" height="34" alt="Разработано в Html Academ"></a>
-      </p>
-    </section>
+    <div class="container">
+      <section class="footer__top">
+        <a class="footer-logo">
+          <img src="img/logo-device2.png" width="163" height="35" alt="Интернет магазина «Девайс»">
+        </a>
+        <ul class="user-navigation">
+          <li><a href="#">Войти</a></li>
+          <li><a href="#">Сравнить</a></li>
+          <li><a href="#">Корзина</a></li>
+        </ul>
+      </section>
+      <section class="footer__middle">
+        <p>г. Москва, ул. Строителей, 15</p>
+        <ul class="site-navigation">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <p>
+          Тел:<a class="contacts-phone" href="tel:+74954959595">+7 (495) 495-95-95</a>
+        </p>
+      </section>
+      <section class="footer__bottom">
+        <svg width="80" height="7" viewBox="0 0 80 7">
+          <rect width="80" height="7" fill="#FFC600"/>
+        </svg>
+        <ul class="footer-social">
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icons/icon-facebook.svg" width="32" height="32" alt="Facebook">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icons/icon-instagram.svg" width="32" height="32" alt="Instagram">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icons/icon-twitter.svg"  width="32" height="32" alt="Twitter">
+            </a>
+          </li>
+        </ul>
+        <a class="footer-copyright" href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-htmlacademy.svg" width="27" height="34" alt="Разработано в Html Academ">
+        </a>
+      </section>
+    </div>
   </footer>
 </body>
 </html>
